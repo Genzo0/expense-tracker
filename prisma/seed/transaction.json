@@ -1,0 +1,142 @@
+[
+  {
+    "id": "tx1",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50000abcd1234efgh",
+    "amount": 5000000,
+    "description": "Gaji Bulanan - Agustus"
+  },
+  {
+    "id": "tx2",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50001abcd1234efgi",
+    "amount": 1200000,
+    "description": "Belanja Bahan Makanan di Supermarket"
+  },
+  {
+    "id": "tx3",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50002abcd1234efgj",
+    "amount": 3000000,
+    "description": "Sewa untuk Bulan Agustus"
+  },
+  {
+    "id": "tx4",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50003abcd1234efgk",
+    "amount": 2500000,
+    "description": "Investasi Saham"
+  },
+  {
+    "id": "tx5",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50017abcd1234efgy",
+    "amount": 200000,
+    "description": "Tagihan Listrik"
+  },
+  {
+    "id": "tx6",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50005abcd1234efgm",
+    "amount": 300000,
+    "description": "Makan Malam di Restoran"
+  },
+  {
+    "id": "tx7",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50006abcd1234efgn",
+    "amount": 500000,
+    "description": "Film dan Hiburan"
+  },
+  {
+    "id": "tx8",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50007abcd1234efgo",
+    "amount": 1500000,
+    "description": "Bonus Akhir Tahun"
+  },
+  {
+    "id": "tx9",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50000abcd1234efgh",
+    "amount": 5000000,
+    "description": "Gaji Bulanan - Juli"
+  },
+  {
+    "id": "tx10",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50001abcd1234efgi",
+    "amount": 1300000,
+    "description": "Belanja Bahan Makanan di Supermarket - Juli"
+  },
+  {
+    "id": "tx11",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50002abcd1234efgj",
+    "amount": 3100000,
+    "description": "Sewa untuk Bulan Juli"
+  },
+  {
+    "id": "tx12",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50003abcd1234efgk",
+    "amount": 2400000,
+    "description": "Investasi Properti"
+  },
+  {
+    "id": "tx13",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50017abcd1234efgy",
+    "amount": 220000,
+    "description": "Tagihan Air"
+  },
+  {
+    "id": "tx14",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50005abcd1234efgm",
+    "amount": 350000,
+    "description": "Makan Siang di Kafe"
+  },
+  {
+    "id": "tx15",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50006abcd1234efgn",
+    "amount": 450000,
+    "description": "Tiket Konser"
+  },
+  {
+    "id": "tx16",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50007abcd1234efgo",
+    "amount": 2000000,
+    "description": "Bonus Kinerja"
+  },
+  {
+    "id": "tx17",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50001abcd1234efgi",
+    "amount": 1400000,
+    "description": "Belanja Bahan Makanan di Pasar Tradisional"
+  },
+  {
+    "id": "tx18",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50002abcd1234efgj",
+    "amount": 3200000,
+    "description": "Sewa untuk Bulan September"
+  },
+  {
+    "id": "tx19",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50005abcd1234efgm",
+    "amount": 400000,
+    "description": "Makan Malam dengan Teman-teman"
+  },
+  {
+    "id": "tx20",
+    "userId": "nlfarlrpxasim3on",
+    "categoryId": "clhz1x3q50006abcd1234efgn",
+    "amount": 600000,
+    "description": "Teater dan Makan Malam"
+  }
+]

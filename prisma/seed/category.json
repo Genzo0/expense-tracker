@@ -1,0 +1,58 @@
+[
+  { "id": "clhz1x3q50000abcd1234efgh", "name": "Gaji", "type": "INCOME" },
+  { "id": "clhz1x3q50001abcd1234efgi", "name": "Belanja", "type": "EXPENSE" },
+  { "id": "clhz1x3q50002abcd1234efgj", "name": "Sewa", "type": "EXPENSE" },
+  { "id": "clhz1x3q50003abcd1234efgk", "name": "Investasi", "type": "INCOME" },
+  {
+    "id": "clhz1x3q50005abcd1234efgm",
+    "name": "Makanan & Minuman",
+    "type": "EXPENSE"
+  },
+  { "id": "clhz1x3q50006abcd1234efgn", "name": "Hiburan", "type": "EXPENSE" },
+  { "id": "clhz1x3q50007abcd1234efgo", "name": "Bonus", "type": "INCOME" },
+  { "id": "clhz1x3q50008abcd1234efgp", "name": "Dividen", "type": "INCOME" },
+  { "id": "clhz1x3q50009abcd1234efgq", "name": "Royalti", "type": "INCOME" },
+  {
+    "id": "clhz1x3q50010abcd1234efgr",
+    "name": "Transportasi",
+    "type": "EXPENSE"
+  },
+  {
+    "id": "clhz1x3q50011abcd1234efgs",
+    "name": "Pendidikan",
+    "type": "EXPENSE"
+  },
+  { "id": "clhz1x3q50012abcd1234efgt", "name": "Kesehatan", "type": "EXPENSE" },
+  { "id": "clhz1x3q50013abcd1234efgu", "name": "Asuransi", "type": "EXPENSE" },
+  { "id": "clhz1x3q50014abcd1234efgv", "name": "Donasi", "type": "EXPENSE" },
+  {
+    "id": "clhz1x3q50015abcd1234efgw",
+    "name": "Penjualan Aset",
+    "type": "INCOME"
+  },
+  {
+    "id": "clhz1x3q50016abcd1234efgx",
+    "name": "Lain-lain (Pemasukan)",
+    "type": "INCOME"
+  },
+  {
+    "id": "clhz1x3q50017abcd1234efgy",
+    "name": "Lain-lain (Pengeluaran)",
+    "type": "EXPENSE"
+  },
+  { "id": "clhz1x3q50019abcd1234efha", "name": "Pakaian", "type": "EXPENSE" },
+  {
+    "id": "clhz1x3q50020abcd1234efhb",
+    "name": "Perawatan Rumah",
+    "type": "EXPENSE"
+  },
+  { "id": "clhz1x3q50021abcd1234efhc", "name": "Hobi", "type": "EXPENSE" },
+  {
+    "id": "clhz1x3q50022abcd1234efhd",
+    "name": "Gadget & Elektronik",
+    "type": "EXPENSE"
+  },
+  { "id": "clhz1x3q50023abcd1234efhe", "name": "Freelance", "type": "INCOME" },
+  { "id": "clhz1x3q50024abcd1234efhf", "name": "Hadiah", "type": "INCOME" },
+  { "id": "clhz1x3q50025abcd1234efhg", "name": "Pinjaman", "type": "INCOME" }
+]
