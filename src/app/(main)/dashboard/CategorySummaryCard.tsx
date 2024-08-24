@@ -17,7 +17,7 @@ import {
 } from "recharts";
 import { getTransactionThisMonth } from "./actions";
 import { Loader2 } from "lucide-react";
-import { formatNumber } from "@/lib/utils";
+import { formatMoney, formatNumber } from "@/lib/utils";
 
 interface ExpenseSums {
   [key: string]: number;
@@ -113,7 +113,9 @@ export default function CategorySummaryCard() {
                   />
                 ))}
               </Pie>
-              <Tooltip />
+              <Tooltip
+                formatter={(value: number) => [`${formatMoney(value)}`]}
+              />
             </PieChart>
           </ResponsiveContainer>
           <div className="absolute left-1/2 top-1/2 basis-2/5 -translate-x-1/2 -translate-y-1/2 transform text-center">

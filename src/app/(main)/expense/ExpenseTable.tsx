@@ -8,6 +8,7 @@ import { TransactionData } from "@/lib/types";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
 import { useEffect, useState } from "react";
 import DetailDialog from "@/components/transaction/DetailDialog";
+import { getExpenses } from "./actions";
 
 const columns: GridColDef[] = [
   { field: "description", headerName: "Deskripsi", width: 200 },
@@ -51,7 +52,7 @@ export default function ExpenseTable() {
 
   const { data, isError, isLoading, error, status } = useQuery({
     queryKey: ["expense"],
-    queryFn: () => kyInstance.get("/api/expense").json<TransactionData[]>(),
+    queryFn: () => getExpenses(),
   });
 
   const handleRowClick = (params: any) => {

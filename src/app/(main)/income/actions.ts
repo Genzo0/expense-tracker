@@ -4,22 +4,22 @@ import { validateRequest } from "@/auth";
 import prisma from "@/lib/prisma";
 import { getTransactionDataInclude } from "@/lib/types";
 
-export async function getExpenses() {
+export async function getIncomes() {
   const { user: loggedInUser } = await validateRequest();
 
   if (!loggedInUser) {
     throw new Error("Unauthorized");
   }
 
-  const expenses = await prisma.transaction.findMany({
+  const incomes = await prisma.transaction.findMany({
     where: {
       userId: loggedInUser.id,
       category: {
-        type: "EXPENSE",
+        type: "INCOME",
       },
     },
     include: getTransactionDataInclude(),
   });
 
-  return expenses;
+  return incomes;
 }
