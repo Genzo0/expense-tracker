@@ -6,6 +6,7 @@ import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { lucia } from "@/auth";
 import { verify } from "@node-rs/argon2";
+import { isRedirectError } from "next/dist/client/components/redirect";
 
 export async function login(
   credentials: LoginValue,
@@ -44,9 +45,9 @@ export async function login(
       sessionCookie.value,
       sessionCookie.attributes,
     );
-    return redirect("/");
+    return redirect("/dashboard");
   } catch (error) {
-    console.log(error);
+    if (isRedirectError(error)) throw error;
     return {
       error: "An unexpected error occurred. Please try again.",
     };
