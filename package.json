@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "tsc && node ./prisma/seed.ts"
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
